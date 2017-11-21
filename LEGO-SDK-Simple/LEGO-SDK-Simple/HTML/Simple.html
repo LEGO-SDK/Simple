@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta content="width: 320" name="viewport">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.css">
+    </head>
+    <body style="margin-top: 6rem">
+        <input id="number1" style="height:200px; width:300px; font-size:80px">
+        <text style="height:200px; width:300px; font-size:80px">+</text>
+        <input id="number2" style="height:200px; width:300px; font-size:80px">
+        <text style="height:200px; width:300px; font-size:80px">=</text>
+        <pre id="prettyprint" class="prettyprint" style="font-size: 40px;"></pre>
+        <button onclick="asyOnClick()" style="height:200px; width:300px; font-size:50px" >GO</button>
+        <script>
+            window.JSBridge && eval(window.JSBridge.bridgeScript())
+            function asyOnClick() {
+                var number1 = document.getElementById('number1');
+                var number2 = document.getElementById('number2');
+                JSMessage.newMessage('UED.SimpleModule',{'number1':number1.value, 'number2':number2.value}).call(function(meta,result){
+                                                                          document.getElementById('prettyprint').innerHTML = JSON.stringify(result, null, 4);
+                                                                          });
+            }
+        </script>
+    </body>
+</html>

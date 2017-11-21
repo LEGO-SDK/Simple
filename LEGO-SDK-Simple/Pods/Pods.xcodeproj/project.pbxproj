@@ -1,0 +1,1443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0220854C06155842DA24E4BBA5DB643A /* WKWebView+LGOPack.h in Headers */ = {isa = PBXBuildFile; fileRef = E90B8F80FEAE655EDDE5D4ADB9569060 /* WKWebView+LGOPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03729393192E64EA53B4A6A9DEF1393B /* LGOModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59AC1C9BF6A1F48556837A45C7F3B82 /* LGOModalController.m */; };
+		04C2EA82AF4080513D2BDE0E9FED7F8C /* WKWebView+LGOViewControllerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B4B554F8D5EBCA46A1FC941E7004C /* WKWebView+LGOViewControllerArgs.m */; };
+		0608EE19B8FB60723356261199395085 /* LGONotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E0165D6BEEE775E9A9657D90BC19261D /* LGONotification.m */; };
+		06AF286435B3BBF3238DBD02B5253166 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7FB2DE236E5600D2ADDB34BEA199E6 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F98944BFA29ADAAF3B715B2D73FF71 /* LGOPageState.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F338C73736DC12014CC0262A5A3ECBD /* LGOPageState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBCE727AFBEE0403BD228126D3F5141 /* LGOCanOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = D164D96F7EFD405381E579C5CAF46EC2 /* LGOCanOpenURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDBAD9724884CF63331FD95F7544623 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5ACAD4EB80EB370909A08A9C281761 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DEB10674861CDDE6918F9B7DB8AE3C8 /* LGOAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C817A0DDDA684CC2200C2C1924725275 /* LGOAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4B5E05B27EDAD607896DC0DE119E5B /* LGOImagePreviewer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B5C25476481762F74707AD30635F25 /* LGOImagePreviewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		123A2E3DFA2FB024AD938AFA4DE1A61B /* LGOPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 35391594D6E65496DDEE92562CDF6655 /* LGOPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131EA34DBF349EE9946ADB4EC6EAA57D /* LGOActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FF86E4C470C2CFA8E79D5EDF492628E5 /* LGOActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143D0221BDE3820DE5FBF489399E0EB0 /* LGOBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB7AAEA020F3F6EDBE017426101D31C /* LGOBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146B808C198990687C1C4FBB01FD05DB /* LGOBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0A1982BA2FCD8E75C5CCF11F01D473 /* LGOBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14D7EC1D2119DB1366314BCA549F5301 /* UIWebView+LGOAutoInject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2A019FC94EFCD5A0044254B21D548B /* UIWebView+LGOAutoInject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15307154246ECAC952F71EEA7BDD302D /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C443010FE192EB382CD2EF44D534DC /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		175C18E4FA262BE01B82776804A5DBAB /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 667EC42AEB4E6FFF3025B5872666CB59 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A22523C9F5C4067543C25527F661BEB /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B71FFC7AF20C84363FB7F60F10CA5A /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EBE5772BAE9A4EE1B473BF4EF6F4255 /* LGONotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 453B766D8DCDB06D2B6FFF81A92678D5 /* LGONotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2456D52598C231A5C77980845A813506 /* LGOWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E44567D211629B4F5461CDB2DA29450 /* LGOWatchDog.m */; };
+		2812E973A2BDE31F7E2DFA6A1AB2B8C7 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8648D40863FDB0DA8C90F3A0DB222143 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2886549F170FBCAFB1532C70898BA4FE /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE7D15CAC86923ED41C7A9839EE9E98 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A7FAE2B7AA20D9F726425C1D99D0E86 /* LGODevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F1568870346CC3814E4E5127256332ED /* LGODevice.m */; };
+		2BA79D937CC543E86F43EFFF7B47B92D /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 35AEF13DE08B9CE2EAE1B3DD74E2AD72 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EA8C1A59E1DC7E04C4D3A57AD131E10 /* UIWebView+LGOAutoInject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C33D69E36B296926BFF52422734C4F0 /* UIWebView+LGOAutoInject.m */; };
+		3142C4CE1D11974CA261437E192A7977 /* LGOPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC0255F42FB4A909C124B5997EC4268 /* LGOPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3204052D4670C808AFFE021EDE56B7AA /* LGOImagePreviewZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 947B34AD34C465EF819F419C88073C5E /* LGOImagePreviewZoomingScrollView.m */; };
+		322EDAE0F59FF4921ECE153820CCF6C7 /* LGOPackRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DE6C436188131808C3F42A71D39805 /* LGOPackRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33884481D6152793AD22499BF46B7398 /* LGOPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06843CE83EA2BE0B3E32A704568F3D83 /* LGOPage.m */; };
+		34735BE8072FF5C219F6D29B3DD61FAA /* LGOPasteboard.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFFE91FA46DD129565F924894B37E25 /* LGOPasteboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39697565BDA3C6BC04F082022818A72A /* LGOHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F2B843838843F1AAC9CE6B28A605BD /* LGOHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A193F494897ECEF046E2DC5FD503D73 /* LGOModalController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5283EF241F86FB5FEDB7141CA89418 /* LGOModalController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B921E1D6FE83234AD74C5C44C9BF0E4 /* WKWebView+LGOAutoInject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855897E6EC41E16C9CBA1ACF97BF46D /* WKWebView+LGOAutoInject.m */; };
+		3E8CF89DF92A413EFB1DA0AA0B249454 /* LGOCallable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E143052D68AE364FF6E7250D9A1B9A3 /* LGOCallable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBA5463E3937B063702D0B28AA8835E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E3AC1528D162145D99323382DD5E10 /* JavaScriptCore.framework */; };
+		3F005F8DF9B95725B9AEBC11E27CB5D0 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CA34664EA6F96B6B10582500AA7870 /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4122C51067974C345D8EF4A567215034 /* LGOCall.m in Sources */ = {isa = PBXBuildFile; fileRef = BE00361E79E2D5B9EFD1C99DA3CD9758 /* LGOCall.m */; };
+		456DDE43840CAEE96CA7DAFF053551B6 /* UIWebView+LGOViewControllerArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B4E603D11C0A16578869D3287BF940 /* UIWebView+LGOViewControllerArgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D2DF8CF0F7A86348023C58B1325927 /* LGOToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC0AE0BDC1F8E0BB5E1C6E55255CB8C /* LGOToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B8A873598B5C924514A10FB348C019 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = AD75ABFEA86F9C02A6868D4A2B27E677 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		491CDC636F9AD17A72C18A640F340C50 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B21C5C7FE590370EAED6D216871B7 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AE710851378677368A1D91382AC2A57 /* UIWebView+LGOPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C34BC66EDB241734FA625D9B6177E3B /* UIWebView+LGOPack.m */; };
+		4D10A65511CEADECA86EAF9B8EA3A204 /* LGOWebView+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F6EA438C61CEA4E7A3F6AF6BA81D84 /* LGOWebView+DataModel.m */; };
+		4DABB5D0E7C6111E50699CBA33538751 /* LGOPack.m in Sources */ = {isa = PBXBuildFile; fileRef = A85BAD218C70A89691F75B2529A97F6D /* LGOPack.m */; };
+		4E21DA01CA1770446879E76C9A02AECE /* LGOModules.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A9221D14C844A03C196A3F587530B6 /* LGOModules.m */; };
+		4E5B4DEE91423F15BA11A9F828CC111B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F82B1596819F2E0F8952D8C48D4E46AE /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5598818AE5E923CFFDD74B0BAED0726A /* WKWebView+LGOAutoInject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C836DE2FFD646420D255CE564BAAA03 /* WKWebView+LGOAutoInject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5609B55C2CB02444843ED55A8BB6DA4C /* JSContext+LGOProps.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA3E8442E9C3F48DD7CC8EDFDBD5B75 /* JSContext+LGOProps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584641D1C018105232C6822A1BF10007 /* LGOWKWebView+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BB08BE3CBDB042E15414B0E3057C9B /* LGOWKWebView+DataModel.m */; };
+		58B4B5BB669F563F4C3BEF3EC04B7DAC /* LGOBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D50F0901A28DBF3DA0690CA004878E /* LGOBaseViewController.m */; };
+		58CF6917612D5A469877880A28329BEB /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E303BE82B804D22202BCE77853FEAC8 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		590E840C261443FAB9DD47B066143248 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF015362696BFA3F419E4326D68B327 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59CD8336419F18312E8C8DD13B86DB7F /* LGOWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8FE6195CEFCA4B34048C27C1AFD0FE /* LGOWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59E12971F28FBDC432C8BDA50A076FBF /* LGOWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E967F810F8EB051AD1C6BCB88CDBDC11 /* LGOWKWebView.m */; };
+		5A2EEBB5C1F9147EB017A961145D7CCB /* LGOWebView+RefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC88636C785218E7CD7449480FC34DB /* LGOWebView+RefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3E4A712C693517F7038A37B3E9CB4D /* LGOWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 937BEF18D9E2D2CAC6AF5AB26B12AF74 /* LGOWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB87E7ACE7DA676B79ECB73FB061A12 /* LGOPackRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3A9A3F39885E49B7FB847485A01CA /* LGOPackRSA.m */; };
+		5D6522E22E68409A14CF9DDD805B7F64 /* LGOWebView+DataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 583148E18DC596EBAEBB88F7298A50CD /* LGOWebView+DataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7DC098ABB219240ABDC4BF43BB8D3D /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = C4C0FC7A4B8A67CF08666E9EE3AE4062 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F7BFF1D3315FC8B8F009D12F5EA20D0 /* LGOProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9C4E70266836FDFEA117BF81E90D8D /* LGOProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653AEED898B89BB6707D1044D04F5B9C /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F614FBC17DDD2B8C4DFBAFA435D0E53 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65F73CB47084B74E1679FC021C2A4CB9 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 821AD56222BE53AC9D6A8C4F4E48901A /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69816BFF4261854B06D6A0BDC7B7CFA4 /* UIWebView+LGOViewControllerArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C37306F279C5ACFA210FE2FB0A6D8 /* UIWebView+LGOViewControllerArgs.m */; };
+		6A2571A087DE32CAF8EF305F50F92A6F /* LGOJavaScriptUserContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C815F11B296EA578A8D1B454090E2AD8 /* LGOJavaScriptUserContentController.m */; };
+		6AA8AD8A92D2FCB91F0C3295BCF52307 /* LGOProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F2F143BEF19BAE0DCD95BB9CC22BD4 /* LGOProtocols.m */; };
+		6BBB605B5CB6972A9445CAF99BF8D9AB /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 8459DECCCFCEE3216DF7C54104074BE1 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C8429AE96989729089E4AC137F52BE2 /* LGOPasteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CCDE0C1E7962873F51CC47834419C2 /* LGOPasteboard.m */; };
+		6EAD75D9AC0914D82F39D52BBCE35B8B /* LGODeviceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7001B765294A1D519DFA3E9DAD086B /* LGODeviceReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBCA85871665C2459C4E8B1AB249B42 /* LGODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B22A675603D5529E79D8F8BD56AD074D /* LGODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		701BE6723DF40CFBF00C1FB86D47B3DB /* LGOToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB18CD8B38FAE41F39BAB9EA32A3F7B /* LGOToast.m */; };
+		76FCEE5318F4E15675BA2C2B58B6B104 /* LGOWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A54858499E1B172E7A12E841EA51DF9C /* LGOWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7727053E77AE32A24710188430ABFF81 /* LGOImagePreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B904E05D0EF3D5914F180DD7461F9E3B /* LGOImagePreviewer.m */; };
+		7A329C164363972412C944728571B8EC /* LGORefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CD7644BCBA8744F0D95B86FC0D907A /* LGORefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5C06BCF89FE2E63ECA8A311F83AA4B /* LGOFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 40301C206ECD2110018A7294C888840A /* LGOFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C62BC406E4400209BD3BC375F04623F /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9605DAE54C309B448C95DF6ABB60C8E4 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FA54A7A2E6CC2B2852C2F40F8CB77A1 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C6CF6827453D7A0D627AF21EAD60D8 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80509ACEA67E8511944BC954C167FFF5 /* LEGO-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C73E81FF707B4B06402B05CCD4082BE /* LEGO-SDK-dummy.m */; };
+		807C0ED59EFBD24C42E1018605F0FBDE /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 01B0516A00C1FC9B560620EEA9063A99 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82F9293C6A303FC29743002929249816 /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = 064010797ADA4F465E785E5970DAEE1D /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8443C2B33D367606540CA16E78051767 /* LGOPageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8AA8CE4BBCE5C05A2D567CBAE1753 /* LGOPageStore.m */; };
+		847C540C4FA39B9013456D512B7B3E79 /* LGOPreload.h in Headers */ = {isa = PBXBuildFile; fileRef = FB97103B66FC08C99141881F733F39CB /* LGOPreload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84FBB1DDA47A63CD5F46157868F5CC8E /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 50B41E812A3FD7C184C83C6C7E9834F7 /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85379D265220B7BA2C62C263BFCE76BF /* LGOWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36B3E7BFC5D8CACC5D46F24265FB01 /* LGOWebView.m */; };
+		85AB8F7FF5454C4315D359A771654612 /* LGONavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4705F94B3462DAC319A9E5E911602D0C /* LGONavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		863621DD0B85DAE009C80C8C8FD6CC6C /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 62F1E4BB244BEFF82046E92E70C231B6 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8692487B386FDB87630013754D38C4A1 /* LGODataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38B2659C9B0ED22FD35E9B6CB7177D /* LGODataModel.m */; };
+		87216E07E567C42D8214E67053B723EA /* LGOAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90966DE9D8C36BC5AE95EAEA1F2D5CCC /* LGOAlertView.m */; };
+		8B2938CBDED874A4D04FA7690EC20396 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = E77C58109737747105883E927300F92B /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8BBA9E59236816EB72E07F7C93B20E2C /* LGOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D5F5A9572B6B59C6BFD2FB9707A8D /* LGOHTTPRequest.m */; };
+		8BF257BCFBEE9471431FF3E665F08262 /* LGOOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FDA39A32EC2DEE76D95B7E6E3699C /* LGOOpenURL.m */; };
+		8D6A31E73ADB54D8D31509CDD84A9663 /* LGONavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9381DD98EBC91076277D0F217F5835 /* LGONavigationItem.m */; };
+		8F9A43B95026ACDEF7DCFC3BCEC85997 /* LGOOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FC12780B5E28F2A615DDB6E7FB10CD /* LGOOpenURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE3A31FAE2EDD68239A0B142475752A /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9D7BC22B24FDC037B0FB8CA5375FD5 /* SSZipArchive-dummy.m */; };
+		8FE8F75EA3F0B5A2C94D2268AA24ACBC /* LGOCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADFE2D569E7A61ADF83035C3DB65AA3 /* LGOCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901B1D956EC704785C698852A4F129FC /* LGOJavaScriptUserContentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC773B2AF0EA1C71B49A87F347F2B0B7 /* LGOJavaScriptUserContentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9284ABC03955B0054D56CDAE6D08C84A /* JSContext+LGOProps.m in Sources */ = {isa = PBXBuildFile; fileRef = C709C3C5F4116918BA2CBD0CD288A6CF /* JSContext+LGOProps.m */; };
+		96A2B095476AC844EB9EA9ACFBCAAB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
+		97749D116EF2AC60CB5C5BBE95D4F612 /* LGOSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C06CA77030E1232BC49AEEF21774D954 /* LGOSnapshot.m */; };
+		98461A146982DB63D09053839D0BD8DD /* LGOCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2CDAB5B764BC4C3BB8E6D221ABAF47 /* LGOCore.m */; };
+		9A9B69AEA70546AF40CCB71AD6F133C9 /* Pods-LEGO-SDK-Simple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E72647062C912C67E526A8AD9B3379 /* Pods-LEGO-SDK-Simple-dummy.m */; };
+		9B3067595D3A256A9E566F814630E7BA /* LGODataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 406EC740B9966F2FDFEB19178C2FEC6A /* LGODataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9A30DEC3FDB469C9AE348630BD47CD /* WKWebView+LGOPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 47084E03B356FA028F2F2B2974D2F473 /* WKWebView+LGOPack.m */; };
+		9DD805AB04270525ECC94B9B25CA8188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
+		A08E489243326D719A4ACB531D4C48A9 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9825D0A8B1CF6CC126183A3BDC50C6 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A440CFF716AAF4BAB4AA9DE68929A463 /* LGOWebView+RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9AB39EFFA802B5DCE70D051D63B077 /* LGOWebView+RefreshControl.m */; };
+		AF011DE2CB9A27BDFBDC84F22E132C56 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 56262B31CA056D42B55C03888D1C83CF /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B31EAD78E3A79696E5ED27CCEB109F65 /* LGOProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F73A473F9E8698B96BB56E0DDB596EDB /* LGOProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B62302A43B94FBD706E3D54F72D796 /* LGONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07117CFE1FC9C15E13FB9FF944DDB41D /* LGONavigationController.m */; };
+		B95368BA1801E0B07648989BD13B6A7C /* LGOCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5C4FB74BEDFEDE630273925CF8ED18 /* LGOCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF84FB944E1D9A58DEF504003C88FB7 /* LGOSkeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43818814D0AFFE8ACED25B2BCC44B0C3 /* LGOSkeleton.m */; };
+		BD30A3A79053283E5169A6885DFDEED3 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA6A8369801AE0AD385053109BB7862 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE5357165481EFEBF3FF9DEC8ACCAB90 /* LGODeviceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B70CF20FD151DC186B45F830C1248F /* LGODeviceReachability.m */; };
+		BFBCA37DB1C68DFBAC7E1515E9CA2B50 /* LGOImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCB2202008E80AD2E72C401EA8009E2 /* LGOImagePreviewController.m */; };
+		C03324B817A5CEC5FC8332341AACE1DA /* LGOImagePreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 917CB8E44CE7FB4FFE934C06F6184F5C /* LGOImagePreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D6C2EF7C89325271DEE8DF37A8824C /* LGOProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B28E7E51C5D3E0DFAE642B6EEC056D /* LGOProgressView.m */; };
+		C5FD6DC97E0A293F53A8DD28E05986CC /* LGOImagePreviewZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8214470E2AF5087B0A739C07D6B1485E /* LGOImagePreviewZoomingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75AD3A4E54C9D9365BB7FD49991D9C3 /* LGOPageState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544865669DA2A130FD0A94591F19179 /* LGOPageState.m */; };
+		CDC47F7AA7F25FC12503817DDC073BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
+		CE502D74FA372DF50CC89A39729C9BA1 /* LGOFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C250FD91E4E6FC78350DFD59E9A5B8A /* LGOFileManager.m */; };
+		D00D2A84F9181BD49E75591A5BED3E25 /* LGOCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = AF709A08292582EF70DFAEAA9797DE68 /* LGOCheck.m */; };
+		D1BD6DC82D417908B1E3571B32818981 /* LGOUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = E1171B09EDFC70B6D346505EF749A61D /* LGOUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36B32B0237776F64A403D6796367598 /* LGOModules.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8087A5E6C39E9E89FE80437AF89B47 /* LGOModules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D376ADDD0415D40E5A37FEDF823D449D /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A22D398B9B742A8825869DACF9676B /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D625220564F771E3B201DB835D993B96 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A2699CC2530CF71DD5F1A67D777FBE63 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9622E44137A1E09DDC60DB0930C89CD /* LGOWKWebView+RefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7CF9702135A3C36532921CAB2247F4 /* LGOWKWebView+RefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC1F8B6C3F78949BA3B33CD517833AB /* LGOJavaScriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1452D3A32092C033FD5A4280664556 /* LGOJavaScriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDAE5F36608A176356291547306A5D13 /* LGOPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442D1336060C7FFA8D853913F1BF34D /* LGOPicker.m */; };
+		DDCDCF1BD3C300596BCCBF39FA1CD417 /* UIWebView+LGOPack.h in Headers */ = {isa = PBXBuildFile; fileRef = C804E7F028CF73168F13FCE3CF1E1A7D /* UIWebView+LGOPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E012545A252AD347CC4F557DBAA57782 /* LGONavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB2ABD319096A09F4FC07B590FC36A4 /* LGONavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08D50178FBA2E1F026BFBCD0D4771B8 /* LGOSkeleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A64642AC2EA0A7B7805430599D35880 /* LGOSkeleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4FA1B38CEB52A45C6563B401A843A6F /* WKWebView+LGOViewControllerArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = D85FBF9DDBA1D537FBFA9D367E9484CC /* WKWebView+LGOViewControllerArgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1C4719C72314C10631BE407AAD2424 /* LGOPreload.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECED99EBD2E8C6CB98D7A6258C43BEB /* LGOPreload.m */; };
+		EB8B152006983954BC5536A16189E970 /* LGOPack.h in Headers */ = {isa = PBXBuildFile; fileRef = B16E417AF27A11406ECCA135ECBD6CF9 /* LGOPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC5DF6BFDBF055682A3767EB801F9D6 /* LGOBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A804812C02D4DBE1D256C4BAD239D49 /* LGOBaseNavigationController.m */; };
+		ED4DCED8BF375CEC150D6CE9F0F6767F /* LGORefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0EB02C9C4B62A198D508E8195A4BB /* LGORefresh.m */; };
+		EF5BFB4957DDCA3945ADB0E8E47E7538 /* LGOCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D44EDFB924A680F1BE6999EFC54BF548 /* LGOCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF830B33C28638BF366AD7A0D717F907 /* LGOActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7EE8CE5A6AAE93551E171655269218 /* LGOActionSheet.m */; };
+		F00E165502D865784EE1C2DF931EC005 /* LGOWKWebView+RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 057B8F0AE6A71DD154A60C7F44A9CCD9 /* LGOWKWebView+RefreshControl.m */; };
+		F237634E6DE3D17D6EAEFC30C416C1E6 /* LGOCanOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F7B5C6324E4200C090B96318092AF9 /* LGOCanOpenURL.m */; };
+		F282005E441935D518A2BFF1C85E2F2C /* LGOUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F05C018CD1D8D549108D7F9997B3D /* LGOUserDefaults.m */; };
+		F438E86E54A061B321B9C7314C4D0527 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5885D7084E4066D352F7A35E47C664E6 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F533E0F00FE4C1CE13D85AB64D3EBBB6 /* LGOWKWebView+DataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6394AA714A4F5D3A22D2A0D01AC8658A /* LGOWKWebView+DataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6817FDE7672E31ED1E7AEAF37418817 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 0420671D029B8F5752EC03FC77755A9D /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6B61141DF7AC8EF9462595FEDD35554 /* LGOJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD35F3ECD564DAB9CCB788A072E233 /* LGOJavaScriptBridge.m */; };
+		F7410D408448629C8A30E67B8097036A /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F79BDA759BAA44BF6E37A7F9DC83DC /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7C77B05170D8607560B8330CEB0263E /* LGOPageStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B5E7807BB9666950CCDD5BDBF871EC /* LGOPageStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9CB9EC2579D20972925FBACA2539C1 /* LGOSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D12F6B73357F96CBBCF2FC3510DC856 /* LGOSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF732B926F596C00BEB4FC001CA4912 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E8BBC4B9F34ACEF84D74D004FEF571 /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435699D9809C7CFAB8B2781CDD45E40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B43F4925C35915BCB9F4A580580DF5;
+			remoteInfo = SSZipArchive;
+		};
+		490F9A130AE3E6B80A409B6D0264ED68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B43F4925C35915BCB9F4A580580DF5;
+			remoteInfo = SSZipArchive;
+		};
+		9EBFCE997A4FD055C4BEB00AAB28198C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C744526214180457066F2A89AFC3294D;
+			remoteInfo = "LEGO-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B0516A00C1FC9B560620EEA9063A99 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
+		01E8BBC4B9F34ACEF84D74D004FEF571 /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
+		0420671D029B8F5752EC03FC77755A9D /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
+		057B8F0AE6A71DD154A60C7F44A9CCD9 /* LGOWKWebView+RefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGOWKWebView+RefreshControl.m"; path = "SDK/Modules/UI/Refresh/LGOWKWebView+RefreshControl.m"; sourceTree = "<group>"; };
+		064010797ADA4F465E785E5970DAEE1D /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
+		06843CE83EA2BE0B3E32A704568F3D83 /* LGOPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPage.m; path = SDK/Modules/UI/Page/LGOPage.m; sourceTree = "<group>"; };
+		07117CFE1FC9C15E13FB9FF944DDB41D /* LGONavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGONavigationController.m; path = SDK/Modules/UI/NavigationController/LGONavigationController.m; sourceTree = "<group>"; };
+		0C33D69E36B296926BFF52422734C4F0 /* UIWebView+LGOAutoInject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+LGOAutoInject.m"; path = "SDK/WebView/AutoInject/UIWebView+LGOAutoInject.m"; sourceTree = "<group>"; };
+		0DF0EB02C9C4B62A198D508E8195A4BB /* LGORefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGORefresh.m; path = SDK/Modules/UI/Refresh/LGORefresh.m; sourceTree = "<group>"; };
+		12FC12780B5E28F2A615DDB6E7FB10CD /* LGOOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOOpenURL.h; path = SDK/Modules/Native/OpenURL/LGOOpenURL.h; sourceTree = "<group>"; };
+		13B70CF20FD151DC186B45F830C1248F /* LGODeviceReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGODeviceReachability.m; path = SDK/Modules/Native/Device/LGODeviceReachability.m; sourceTree = "<group>"; };
+		17CCDE0C1E7962873F51CC47834419C2 /* LGOPasteboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPasteboard.m; path = SDK/Modules/Native/Pasteboard/LGOPasteboard.m; sourceTree = "<group>"; };
+		195696039B5B7E12C792EAE857A75676 /* LEGO-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-SDK.xcconfig"; sourceTree = "<group>"; };
+		19DE6C436188131808C3F42A71D39805 /* LGOPackRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPackRSA.h; path = SDK/Modules/WebView/Pack/LGOPackRSA.h; sourceTree = "<group>"; };
+		1A25BBDCE83BFE83AABC7C9A7D039CED /* LEGO-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGO-SDK-prefix.pch"; sourceTree = "<group>"; };
+		1AA6A8369801AE0AD385053109BB7862 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		1D2CDAB5B764BC4C3BB8E6D221ABAF47 /* LGOCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOCore.m; path = SDK/Core/LGOCore.m; sourceTree = "<group>"; };
+		1E303BE82B804D22202BCE77853FEAC8 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
+		1F5C4FB74BEDFEDE630273925CF8ED18 /* LGOCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOCheck.h; path = SDK/Modules/Native/Check/LGOCheck.h; sourceTree = "<group>"; };
+		21C6CF6827453D7A0D627AF21EAD60D8 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		25F2F143BEF19BAE0DCD95BB9CC22BD4 /* LGOProtocols.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOProtocols.m; path = SDK/Core/LGOProtocols.m; sourceTree = "<group>"; };
+		276B4B554F8D5EBCA46A1FC941E7004C /* WKWebView+LGOViewControllerArgs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+LGOViewControllerArgs.m"; path = "SDK/Modules/UI/ViewController/WKWebView+LGOViewControllerArgs.m"; sourceTree = "<group>"; };
+		27CA34664EA6F96B6B10582500AA7870 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		27D50F0901A28DBF3DA0690CA004878E /* LGOBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOBaseViewController.m; path = SDK/Modules/UI/ViewController/LGOBaseViewController.m; sourceTree = "<group>"; };
+		2A36B3E7BFC5D8CACC5D46F24265FB01 /* LGOWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOWebView.m; path = SDK/WebView/UIWebView/LGOWebView.m; sourceTree = "<group>"; };
+		2ADFE2D569E7A61ADF83035C3DB65AA3 /* LGOCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOCall.h; path = SDK/Modules/Native/Call/LGOCall.h; sourceTree = "<group>"; };
+		2D2A019FC94EFCD5A0044254B21D548B /* UIWebView+LGOAutoInject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LGOAutoInject.h"; path = "SDK/WebView/AutoInject/UIWebView+LGOAutoInject.h"; sourceTree = "<group>"; };
+		2E9381DD98EBC91076277D0F217F5835 /* LGONavigationItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGONavigationItem.m; path = SDK/Modules/UI/NavigationItem/LGONavigationItem.m; sourceTree = "<group>"; };
+		2F38B2659C9B0ED22FD35E9B6CB7177D /* LGODataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGODataModel.m; path = SDK/Modules/Native/DataModel/LGODataModel.m; sourceTree = "<group>"; };
+		332C37306F279C5ACFA210FE2FB0A6D8 /* UIWebView+LGOViewControllerArgs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+LGOViewControllerArgs.m"; path = "SDK/Modules/UI/ViewController/UIWebView+LGOViewControllerArgs.m"; sourceTree = "<group>"; };
+		3442D1336060C7FFA8D853913F1BF34D /* LGOPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPicker.m; path = SDK/Modules/UI/Picker/LGOPicker.m; sourceTree = "<group>"; };
+		35391594D6E65496DDEE92562CDF6655 /* LGOPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPage.h; path = SDK/Modules/UI/Page/LGOPage.h; sourceTree = "<group>"; };
+		35AEF13DE08B9CE2EAE1B3DD74E2AD72 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
+		3A804812C02D4DBE1D256C4BAD239D49 /* LGOBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOBaseNavigationController.m; path = SDK/Modules/UI/ViewController/LGOBaseNavigationController.m; sourceTree = "<group>"; };
+		3AE8AA8CE4BBCE5C05A2D567CBAE1753 /* LGOPageStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPageStore.m; path = SDK/Modules/UI/Page/LGOPageStore.m; sourceTree = "<group>"; };
+		3CB18CD8B38FAE41F39BAB9EA32A3F7B /* LGOToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOToast.m; path = SDK/Modules/UI/Toast/LGOToast.m; sourceTree = "<group>"; };
+		3CB7AAEA020F3F6EDBE017426101D31C /* LGOBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOBaseViewController.h; path = SDK/Modules/UI/ViewController/LGOBaseViewController.h; sourceTree = "<group>"; };
+		3DC0AE0BDC1F8E0BB5E1C6E55255CB8C /* LGOToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOToast.h; path = SDK/Modules/UI/Toast/LGOToast.h; sourceTree = "<group>"; };
+		3E0B21C5C7FE590370EAED6D216871B7 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
+		3E44567D211629B4F5461CDB2DA29450 /* LGOWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOWatchDog.m; path = SDK/Core/LGOWatchDog.m; sourceTree = "<group>"; };
+		3EB2ABD319096A09F4FC07B590FC36A4 /* LGONavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGONavigationController.h; path = SDK/Modules/UI/NavigationController/LGONavigationController.h; sourceTree = "<group>"; };
+		40301C206ECD2110018A7294C888840A /* LGOFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOFileManager.h; path = SDK/Modules/Native/FileManager/LGOFileManager.h; sourceTree = "<group>"; };
+		406EC740B9966F2FDFEB19178C2FEC6A /* LGODataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGODataModel.h; path = SDK/Modules/Native/DataModel/LGODataModel.h; sourceTree = "<group>"; };
+		43818814D0AFFE8ACED25B2BCC44B0C3 /* LGOSkeleton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOSkeleton.m; path = SDK/Modules/WebView/Skeleton/LGOSkeleton.m; sourceTree = "<group>"; };
+		453B766D8DCDB06D2B6FFF81A92678D5 /* LGONotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGONotification.h; path = SDK/Modules/Native/Notification/LGONotification.h; sourceTree = "<group>"; };
+		46C9DB006795B7B5CFDF97CCDC2D028D /* Pods-LEGO-SDK-Simple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-SDK-Simple.debug.xcconfig"; sourceTree = "<group>"; };
+		4705F94B3462DAC319A9E5E911602D0C /* LGONavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGONavigationItem.h; path = SDK/Modules/UI/NavigationItem/LGONavigationItem.h; sourceTree = "<group>"; };
+		47084E03B356FA028F2F2B2974D2F473 /* WKWebView+LGOPack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+LGOPack.m"; path = "SDK/Modules/WebView/Pack/WKWebView+LGOPack.m"; sourceTree = "<group>"; };
+		4A64642AC2EA0A7B7805430599D35880 /* LGOSkeleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOSkeleton.h; path = SDK/Modules/WebView/Skeleton/LGOSkeleton.h; sourceTree = "<group>"; };
+		4B02559763B21C4FC9EBCB96ECCBBEF4 /* libLEGO-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLEGO-SDK.a"; path = "libLEGO-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F338C73736DC12014CC0262A5A3ECBD /* LGOPageState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPageState.h; path = SDK/Modules/UI/PageState/LGOPageState.h; sourceTree = "<group>"; };
+		50A22D398B9B742A8825869DACF9676B /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
+		50B41E812A3FD7C184C83C6C7E9834F7 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		53BB08BE3CBDB042E15414B0E3057C9B /* LGOWKWebView+DataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGOWKWebView+DataModel.m"; path = "SDK/Modules/Native/DataModel/LGOWKWebView+DataModel.m"; sourceTree = "<group>"; };
+		5544865669DA2A130FD0A94591F19179 /* LGOPageState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPageState.m; path = SDK/Modules/UI/PageState/LGOPageState.m; sourceTree = "<group>"; };
+		56262B31CA056D42B55C03888D1C83CF /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
+		583148E18DC596EBAEBB88F7298A50CD /* LGOWebView+DataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGOWebView+DataModel.h"; path = "SDK/Modules/Native/DataModel/LGOWebView+DataModel.h"; sourceTree = "<group>"; };
+		5885D7084E4066D352F7A35E47C664E6 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		595FDA39A32EC2DEE76D95B7E6E3699C /* LGOOpenURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOOpenURL.m; path = SDK/Modules/Native/OpenURL/LGOOpenURL.m; sourceTree = "<group>"; };
+		5CE7D15CAC86923ED41C7A9839EE9E98 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
+		60F6EA438C61CEA4E7A3F6AF6BA81D84 /* LGOWebView+DataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGOWebView+DataModel.m"; path = "SDK/Modules/Native/DataModel/LGOWebView+DataModel.m"; sourceTree = "<group>"; };
+		61F7B5C6324E4200C090B96318092AF9 /* LGOCanOpenURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOCanOpenURL.m; path = SDK/Modules/Native/OpenURL/LGOCanOpenURL.m; sourceTree = "<group>"; };
+		62E8475A90AE64C13B0D73975E140E37 /* Pods-LEGO-SDK-Simple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-SDK-Simple-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62F1E4BB244BEFF82046E92E70C231B6 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
+		6394AA714A4F5D3A22D2A0D01AC8658A /* LGOWKWebView+DataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGOWKWebView+DataModel.h"; path = "SDK/Modules/Native/DataModel/LGOWKWebView+DataModel.h"; sourceTree = "<group>"; };
+		667EC42AEB4E6FFF3025B5872666CB59 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
+		66B5E7807BB9666950CCDD5BDBF871EC /* LGOPageStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPageStore.h; path = SDK/Modules/UI/Page/LGOPageStore.h; sourceTree = "<group>"; };
+		6855897E6EC41E16C9CBA1ACF97BF46D /* WKWebView+LGOAutoInject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+LGOAutoInject.m"; path = "SDK/WebView/AutoInject/WKWebView+LGOAutoInject.m"; sourceTree = "<group>"; };
+		69C443010FE192EB382CD2EF44D534DC /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		6F614FBC17DDD2B8C4DFBAFA435D0E53 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
+		70BE791B69C870A1DBA015B4B54711A8 /* libPods-LEGO-SDK-Simple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LEGO-SDK-Simple.a"; path = "libPods-LEGO-SDK-Simple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B28E7E51C5D3E0DFAE642B6EEC056D /* LGOProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOProgressView.m; path = SDK/Modules/UI/ProgressView/LGOProgressView.m; sourceTree = "<group>"; };
+		750FC6025BD0D18D1FE9E09D94BCFF49 /* Pods-LEGO-SDK-Simple-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGO-SDK-Simple-frameworks.sh"; sourceTree = "<group>"; };
+		7A5283EF241F86FB5FEDB7141CA89418 /* LGOModalController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOModalController.h; path = SDK/Modules/UI/ModalController/LGOModalController.h; sourceTree = "<group>"; };
+		7AC88636C785218E7CD7449480FC34DB /* LGOWebView+RefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGOWebView+RefreshControl.h"; path = "SDK/Modules/UI/Refresh/LGOWebView+RefreshControl.h"; sourceTree = "<group>"; };
+		7B1452D3A32092C033FD5A4280664556 /* LGOJavaScriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOJavaScriptBridge.h; path = SDK/WebView/UIWebView/LGOJavaScriptBridge.h; sourceTree = "<group>"; };
+		7C250FD91E4E6FC78350DFD59E9A5B8A /* LGOFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOFileManager.m; path = SDK/Modules/Native/FileManager/LGOFileManager.m; sourceTree = "<group>"; };
+		7EF015362696BFA3F419E4326D68B327 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		7F0A1982BA2FCD8E75C5CCF11F01D473 /* LGOBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOBaseNavigationController.h; path = SDK/Modules/UI/ViewController/LGOBaseNavigationController.h; sourceTree = "<group>"; };
+		80E72647062C912C67E526A8AD9B3379 /* Pods-LEGO-SDK-Simple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-SDK-Simple-dummy.m"; sourceTree = "<group>"; };
+		8214470E2AF5087B0A739C07D6B1485E /* LGOImagePreviewZoomingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOImagePreviewZoomingScrollView.h; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewZoomingScrollView.h; sourceTree = "<group>"; };
+		821AD56222BE53AC9D6A8C4F4E48901A /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		8459DECCCFCEE3216DF7C54104074BE1 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
+		84E3A9A3F39885E49B7FB847485A01CA /* LGOPackRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPackRSA.m; path = SDK/Modules/WebView/Pack/LGOPackRSA.m; sourceTree = "<group>"; };
+		859D5F5A9572B6B59C6BFD2FB9707A8D /* LGOHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOHTTPRequest.m; path = SDK/Modules/Native/HTTPRequest/LGOHTTPRequest.m; sourceTree = "<group>"; };
+		8648D40863FDB0DA8C90F3A0DB222143 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		8C73E81FF707B4B06402B05CCD4082BE /* LEGO-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGO-SDK-dummy.m"; sourceTree = "<group>"; };
+		8D12F6B73357F96CBBCF2FC3510DC856 /* LGOSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOSnapshot.h; path = SDK/Modules/WebView/Skeleton/LGOSnapshot.h; sourceTree = "<group>"; };
+		8E143052D68AE364FF6E7250D9A1B9A3 /* LGOCallable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOCallable.h; path = SDK/Modules/Native/Call/LGOCallable.h; sourceTree = "<group>"; };
+		8ECED99EBD2E8C6CB98D7A6258C43BEB /* LGOPreload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPreload.m; path = SDK/Modules/WebView/Preload/LGOPreload.m; sourceTree = "<group>"; };
+		90966DE9D8C36BC5AE95EAEA1F2D5CCC /* LGOAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOAlertView.m; path = SDK/Modules/UI/AlertView/LGOAlertView.m; sourceTree = "<group>"; };
+		917CB8E44CE7FB4FFE934C06F6184F5C /* LGOImagePreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOImagePreviewController.h; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewController.h; sourceTree = "<group>"; };
+		92B4E603D11C0A16578869D3287BF940 /* UIWebView+LGOViewControllerArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LGOViewControllerArgs.h"; path = "SDK/Modules/UI/ViewController/UIWebView+LGOViewControllerArgs.h"; sourceTree = "<group>"; };
+		937BEF18D9E2D2CAC6AF5AB26B12AF74 /* LGOWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOWKWebView.h; path = SDK/WebView/WKWebView/LGOWKWebView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947B34AD34C465EF819F419C88073C5E /* LGOImagePreviewZoomingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOImagePreviewZoomingScrollView.m; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewZoomingScrollView.m; sourceTree = "<group>"; };
+		94EF7EBF3475F54D29B9AC6A9B7B88A1 /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSSZipArchive.a; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9605DAE54C309B448C95DF6ABB60C8E4 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
+		96F79BDA759BAA44BF6E37A7F9DC83DC /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
+		99BD35F3ECD564DAB9CCB788A072E233 /* LGOJavaScriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOJavaScriptBridge.m; path = SDK/WebView/UIWebView/LGOJavaScriptBridge.m; sourceTree = "<group>"; };
+		9C34BC66EDB241734FA625D9B6177E3B /* UIWebView+LGOPack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+LGOPack.m"; path = "SDK/Modules/WebView/Pack/UIWebView+LGOPack.m"; sourceTree = "<group>"; };
+		9C7FB2DE236E5600D2ADDB34BEA199E6 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		9C836DE2FFD646420D255CE564BAAA03 /* WKWebView+LGOAutoInject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+LGOAutoInject.h"; path = "SDK/WebView/AutoInject/WKWebView+LGOAutoInject.h"; sourceTree = "<group>"; };
+		9FAD0B1BAFB80F3B6CB21E744EC895B6 /* Pods-LEGO-SDK-Simple-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGO-SDK-Simple-resources.sh"; sourceTree = "<group>"; };
+		A2699CC2530CF71DD5F1A67D777FBE63 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		A52B7E1C49DE58A713B9995B43EEE5F9 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		A54858499E1B172E7A12E841EA51DF9C /* LGOWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOWebView.h; path = SDK/WebView/UIWebView/LGOWebView.h; sourceTree = "<group>"; };
+		A85BAD218C70A89691F75B2529A97F6D /* LGOPack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOPack.m; path = SDK/Modules/WebView/Pack/LGOPack.m; sourceTree = "<group>"; };
+		AC773B2AF0EA1C71B49A87F347F2B0B7 /* LGOJavaScriptUserContentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOJavaScriptUserContentController.h; path = SDK/WebView/WKWebView/LGOJavaScriptUserContentController.h; sourceTree = "<group>"; };
+		AC8FE6195CEFCA4B34048C27C1AFD0FE /* LGOWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOWatchDog.h; path = SDK/Core/LGOWatchDog.h; sourceTree = "<group>"; };
+		AC9D7BC22B24FDC037B0FB8CA5375FD5 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		AD75ABFEA86F9C02A6868D4A2B27E677 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
+		AF709A08292582EF70DFAEAA9797DE68 /* LGOCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOCheck.m; path = SDK/Modules/Native/Check/LGOCheck.m; sourceTree = "<group>"; };
+		B16E417AF27A11406ECCA135ECBD6CF9 /* LGOPack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPack.h; path = SDK/Modules/WebView/Pack/LGOPack.h; sourceTree = "<group>"; };
+		B22A675603D5529E79D8F8BD56AD074D /* LGODevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGODevice.h; path = SDK/Modules/Native/Device/LGODevice.h; sourceTree = "<group>"; };
+		B4E3AC1528D162145D99323382DD5E10 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B59AC1C9BF6A1F48556837A45C7F3B82 /* LGOModalController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOModalController.m; path = SDK/Modules/UI/ModalController/LGOModalController.m; sourceTree = "<group>"; };
+		B71812CC6BD5A60AED46BE39F21E288C /* Pods-LEGO-SDK-Simple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-SDK-Simple-acknowledgements.plist"; sourceTree = "<group>"; };
+		B800B5C3D732E6265531FAB2CD7563C5 /* Pods-LEGO-SDK-Simple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-SDK-Simple.release.xcconfig"; sourceTree = "<group>"; };
+		B904E05D0EF3D5914F180DD7461F9E3B /* LGOImagePreviewer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOImagePreviewer.m; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewer.m; sourceTree = "<group>"; };
+		BBCB2202008E80AD2E72C401EA8009E2 /* LGOImagePreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOImagePreviewController.m; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewController.m; sourceTree = "<group>"; };
+		BC0F05C018CD1D8D549108D7F9997B3D /* LGOUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOUserDefaults.m; path = SDK/Modules/Native/UserDefaults/LGOUserDefaults.m; sourceTree = "<group>"; };
+		BD8087A5E6C39E9E89FE80437AF89B47 /* LGOModules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOModules.h; path = SDK/Core/LGOModules.h; sourceTree = "<group>"; };
+		BE00361E79E2D5B9EFD1C99DA3CD9758 /* LGOCall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOCall.m; path = SDK/Modules/Native/Call/LGOCall.m; sourceTree = "<group>"; };
+		BFB1725F048C885E12B39CCFC362FD74 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		C06CA77030E1232BC49AEEF21774D954 /* LGOSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOSnapshot.m; path = SDK/Modules/WebView/Skeleton/LGOSnapshot.m; sourceTree = "<group>"; };
+		C4C0FC7A4B8A67CF08666E9EE3AE4062 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		C709C3C5F4116918BA2CBD0CD288A6CF /* JSContext+LGOProps.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSContext+LGOProps.m"; path = "SDK/WebView/UIWebView/JSContext+LGOProps.m"; sourceTree = "<group>"; };
+		C7B71FFC7AF20C84363FB7F60F10CA5A /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
+		C804E7F028CF73168F13FCE3CF1E1A7D /* UIWebView+LGOPack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LGOPack.h"; path = "SDK/Modules/WebView/Pack/UIWebView+LGOPack.h"; sourceTree = "<group>"; };
+		C815F11B296EA578A8D1B454090E2AD8 /* LGOJavaScriptUserContentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOJavaScriptUserContentController.m; path = SDK/WebView/WKWebView/LGOJavaScriptUserContentController.m; sourceTree = "<group>"; };
+		C817A0DDDA684CC2200C2C1924725275 /* LGOAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOAlertView.h; path = SDK/Modules/UI/AlertView/LGOAlertView.h; sourceTree = "<group>"; };
+		C8CD7644BCBA8744F0D95B86FC0D907A /* LGORefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGORefresh.h; path = SDK/Modules/UI/Refresh/LGORefresh.h; sourceTree = "<group>"; };
+		CA9AB39EFFA802B5DCE70D051D63B077 /* LGOWebView+RefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGOWebView+RefreshControl.m"; path = "SDK/Modules/UI/Refresh/LGOWebView+RefreshControl.m"; sourceTree = "<group>"; };
+		CB7001B765294A1D519DFA3E9DAD086B /* LGODeviceReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGODeviceReachability.h; path = SDK/Modules/Native/Device/LGODeviceReachability.h; sourceTree = "<group>"; };
+		CB7CF9702135A3C36532921CAB2247F4 /* LGOWKWebView+RefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGOWKWebView+RefreshControl.h"; path = "SDK/Modules/UI/Refresh/LGOWKWebView+RefreshControl.h"; sourceTree = "<group>"; };
+		D164D96F7EFD405381E579C5CAF46EC2 /* LGOCanOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOCanOpenURL.h; path = SDK/Modules/Native/OpenURL/LGOCanOpenURL.h; sourceTree = "<group>"; };
+		D44EDFB924A680F1BE6999EFC54BF548 /* LGOCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOCore.h; path = SDK/Core/LGOCore.h; sourceTree = "<group>"; };
+		D85FBF9DDBA1D537FBFA9D367E9484CC /* WKWebView+LGOViewControllerArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+LGOViewControllerArgs.h"; path = "SDK/Modules/UI/ViewController/WKWebView+LGOViewControllerArgs.h"; sourceTree = "<group>"; };
+		DE5ACAD4EB80EB370909A08A9C281761 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		DE7EE8CE5A6AAE93551E171655269218 /* LGOActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOActionSheet.m; path = SDK/Modules/UI/ActionSheet/LGOActionSheet.m; sourceTree = "<group>"; };
+		DF9C4E70266836FDFEA117BF81E90D8D /* LGOProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOProtocols.h; path = SDK/Core/LGOProtocols.h; sourceTree = "<group>"; };
+		DFC0255F42FB4A909C124B5997EC4268 /* LGOPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPicker.h; path = SDK/Modules/UI/Picker/LGOPicker.h; sourceTree = "<group>"; };
+		E0165D6BEEE775E9A9657D90BC19261D /* LGONotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGONotification.m; path = SDK/Modules/Native/Notification/LGONotification.m; sourceTree = "<group>"; };
+		E1171B09EDFC70B6D346505EF749A61D /* LGOUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOUserDefaults.h; path = SDK/Modules/Native/UserDefaults/LGOUserDefaults.h; sourceTree = "<group>"; };
+		E1F2B843838843F1AAC9CE6B28A605BD /* LGOHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOHTTPRequest.h; path = SDK/Modules/Native/HTTPRequest/LGOHTTPRequest.h; sourceTree = "<group>"; };
+		E5A9221D14C844A03C196A3F587530B6 /* LGOModules.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOModules.m; path = SDK/Core/LGOModules.m; sourceTree = "<group>"; };
+		E77C58109737747105883E927300F92B /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
+		E90B8F80FEAE655EDDE5D4ADB9569060 /* WKWebView+LGOPack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+LGOPack.h"; path = "SDK/Modules/WebView/Pack/WKWebView+LGOPack.h"; sourceTree = "<group>"; };
+		E967F810F8EB051AD1C6BCB88CDBDC11 /* LGOWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGOWKWebView.m; path = SDK/WebView/WKWebView/LGOWKWebView.m; sourceTree = "<group>"; };
+		EAA3E8442E9C3F48DD7CC8EDFDBD5B75 /* JSContext+LGOProps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSContext+LGOProps.h"; path = "SDK/WebView/UIWebView/JSContext+LGOProps.h"; sourceTree = "<group>"; };
+		EE9825D0A8B1CF6CC126183A3BDC50C6 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		F1568870346CC3814E4E5127256332ED /* LGODevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGODevice.m; path = SDK/Modules/Native/Device/LGODevice.m; sourceTree = "<group>"; };
+		F5B5C25476481762F74707AD30635F25 /* LGOImagePreviewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOImagePreviewer.h; path = SDK/Modules/UI/ImagePreviewer/LGOImagePreviewer.h; sourceTree = "<group>"; };
+		F73A473F9E8698B96BB56E0DDB596EDB /* LGOProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOProgressView.h; path = SDK/Modules/UI/ProgressView/LGOProgressView.h; sourceTree = "<group>"; };
+		F82B1596819F2E0F8952D8C48D4E46AE /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		FB97103B66FC08C99141881F733F39CB /* LGOPreload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPreload.h; path = SDK/Modules/WebView/Preload/LGOPreload.h; sourceTree = "<group>"; };
+		FBFFE91FA46DD129565F924894B37E25 /* LGOPasteboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOPasteboard.h; path = SDK/Modules/Native/Pasteboard/LGOPasteboard.h; sourceTree = "<group>"; };
+		FF86E4C470C2CFA8E79D5EDF492628E5 /* LGOActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGOActionSheet.h; path = SDK/Modules/UI/ActionSheet/LGOActionSheet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B40548F3A32811C26EC3E985833642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD805AB04270525ECC94B9B25CA8188 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BF4EB38C1F4DB4199BA9C312D36D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A2B095476AC844EB9EA9ACFBCAAB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9800EDA6CB80E56066DF06999FCB48A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC47F7AA7F25FC12503817DDC073BF0 /* Foundation.framework in Frameworks */,
+				3EBA5463E3937B063702D0B28AA8835E /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0033CC02114EBBA7CC17F52EA5674EE0 /* PageState */ = {
+			isa = PBXGroup;
+			children = (
+				4F338C73736DC12014CC0262A5A3ECBD /* LGOPageState.h */,
+				5544865669DA2A130FD0A94591F19179 /* LGOPageState.m */,
+			);
+			name = PageState;
+			sourceTree = "<group>";
+		};
+		0086E4475BD56FBA54B07E89B47BAC2F /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				DFC0255F42FB4A909C124B5997EC4268 /* LGOPicker.h */,
+				3442D1336060C7FFA8D853913F1BF34D /* LGOPicker.m */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
+		0E9AE356C143C8843DED7A49BE6325E0 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				4A64642AC2EA0A7B7805430599D35880 /* LGOSkeleton.h */,
+				43818814D0AFFE8ACED25B2BCC44B0C3 /* LGOSkeleton.m */,
+				8D12F6B73357F96CBBCF2FC3510DC856 /* LGOSnapshot.h */,
+				C06CA77030E1232BC49AEEF21774D954 /* LGOSnapshot.m */,
+			);
+			name = Skeleton;
+			sourceTree = "<group>";
+		};
+		0F3F499B9B1A66050B9E281225F78735 /* ImagePreviewer */ = {
+			isa = PBXGroup;
+			children = (
+				917CB8E44CE7FB4FFE934C06F6184F5C /* LGOImagePreviewController.h */,
+				BBCB2202008E80AD2E72C401EA8009E2 /* LGOImagePreviewController.m */,
+				F5B5C25476481762F74707AD30635F25 /* LGOImagePreviewer.h */,
+				B904E05D0EF3D5914F180DD7461F9E3B /* LGOImagePreviewer.m */,
+				8214470E2AF5087B0A739C07D6B1485E /* LGOImagePreviewZoomingScrollView.h */,
+				947B34AD34C465EF819F419C88073C5E /* LGOImagePreviewZoomingScrollView.m */,
+			);
+			name = ImagePreviewer;
+			sourceTree = "<group>";
+		};
+		179F9122E0C6CABB38D3B86460CFB617 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C817A0DDDA684CC2200C2C1924725275 /* LGOAlertView.h */,
+				90966DE9D8C36BC5AE95EAEA1F2D5CCC /* LGOAlertView.m */,
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
+		1A71C36201FC3A71E9323805A342D3B0 /* Preload */ = {
+			isa = PBXGroup;
+			children = (
+				FB97103B66FC08C99141881F733F39CB /* LGOPreload.h */,
+				8ECED99EBD2E8C6CB98D7A6258C43BEB /* LGOPreload.m */,
+			);
+			name = Preload;
+			sourceTree = "<group>";
+		};
+		1DBD25F11C2E3E48F3C8E5E334241A58 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FF86E4C470C2CFA8E79D5EDF492628E5 /* LGOActionSheet.h */,
+				DE7EE8CE5A6AAE93551E171655269218 /* LGOActionSheet.m */,
+			);
+			name = ActionSheet;
+			sourceTree = "<group>";
+		};
+		25FA8CA5E31DEF5BE6D4BF2728D7528C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B02559763B21C4FC9EBCB96ECCBBEF4 /* libLEGO-SDK.a */,
+				70BE791B69C870A1DBA015B4B54711A8 /* libPods-LEGO-SDK-Simple.a */,
+				94EF7EBF3475F54D29B9AC6A9B7B88A1 /* libSSZipArchive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276A600CF538F6D11FD7B848011FD29A /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				E1171B09EDFC70B6D346505EF749A61D /* LGOUserDefaults.h */,
+				BC0F05C018CD1D8D549108D7F9997B3D /* LGOUserDefaults.m */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
+		3FD5A16BDE3F11597D371A184B59DA0C /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				E701E9EB4D81EBD9BAE53E7E5CE4D880 /* Call */,
+				9A2B5E9E7D99942DCE8CA23D5D0CAA24 /* Check */,
+				5102F78ECC75E5909485E674770160D4 /* DataModel */,
+				5C6D62D7FBF2FFD2CCCE107822462FE3 /* Device */,
+				47B3B17936ECE36B1B0BEA283C5A77DE /* FileManager */,
+				C4EAEC75B7250C050D07B834554081BF /* HTTPRequest */,
+				ECDDEB357B2A52B2420A6BC480FDCC10 /* Notification */,
+				461D9332B3DA6797D99D0050EAC8983C /* OpenURL */,
+				F86D54D0E0A784552AA642A1E119A614 /* Pasteboard */,
+				276A600CF538F6D11FD7B848011FD29A /* UserDefaults */,
+			);
+			name = Native;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB625A01D251B3FB0B216A3C37A0033 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43EAFE505B38FB09E0AD4176063F0052 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB1725F048C885E12B39CCFC362FD74 /* SSZipArchive.xcconfig */,
+				AC9D7BC22B24FDC037B0FB8CA5375FD5 /* SSZipArchive-dummy.m */,
+				A52B7E1C49DE58A713B9995B43EEE5F9 /* SSZipArchive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		451490816C483F9AE90DFBBBDF34B4F2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5A16BDE3F11597D371A184B59DA0C /* Native */,
+				B4077797C313EC1CB3D1D010C326C490 /* UI */,
+				CCB566E843DB109148B100FCAF98AE3D /* WebView */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		461D9332B3DA6797D99D0050EAC8983C /* OpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				D164D96F7EFD405381E579C5CAF46EC2 /* LGOCanOpenURL.h */,
+				61F7B5C6324E4200C090B96318092AF9 /* LGOCanOpenURL.m */,
+				12FC12780B5E28F2A615DDB6E7FB10CD /* LGOOpenURL.h */,
+				595FDA39A32EC2DEE76D95B7E6E3699C /* LGOOpenURL.m */,
+			);
+			name = OpenURL;
+			sourceTree = "<group>";
+		};
+		47B3B17936ECE36B1B0BEA283C5A77DE /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				40301C206ECD2110018A7294C888840A /* LGOFileManager.h */,
+				7C250FD91E4E6FC78350DFD59E9A5B8A /* LGOFileManager.m */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
+		499D9E4F8E0329F073293109D635BEAA /* Pods-LEGO-SDK-Simple */ = {
+			isa = PBXGroup;
+			children = (
+				62E8475A90AE64C13B0D73975E140E37 /* Pods-LEGO-SDK-Simple-acknowledgements.markdown */,
+				B71812CC6BD5A60AED46BE39F21E288C /* Pods-LEGO-SDK-Simple-acknowledgements.plist */,
+				80E72647062C912C67E526A8AD9B3379 /* Pods-LEGO-SDK-Simple-dummy.m */,
+				750FC6025BD0D18D1FE9E09D94BCFF49 /* Pods-LEGO-SDK-Simple-frameworks.sh */,
+				9FAD0B1BAFB80F3B6CB21E744EC895B6 /* Pods-LEGO-SDK-Simple-resources.sh */,
+				46C9DB006795B7B5CFDF97CCDC2D028D /* Pods-LEGO-SDK-Simple.debug.xcconfig */,
+				B800B5C3D732E6265531FAB2CD7563C5 /* Pods-LEGO-SDK-Simple.release.xcconfig */,
+			);
+			name = "Pods-LEGO-SDK-Simple";
+			path = "Target Support Files/Pods-LEGO-SDK-Simple";
+			sourceTree = "<group>";
+		};
+		4CFB62A2DEBBA9B8C69685B319A5C1C3 /* LEGO-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				451490816C483F9AE90DFBBBDF34B4F2 /* API */,
+				A38CEAA796594A92C76BCD9A98C5BAD8 /* AutoInject */,
+				70C677264DD3D2709A5B2EB1137CE199 /* Core */,
+				A019083FDF24B60448F5B163A888829B /* Support Files */,
+			);
+			name = "LEGO-SDK";
+			path = "LEGO-SDK";
+			sourceTree = "<group>";
+		};
+		5102F78ECC75E5909485E674770160D4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				406EC740B9966F2FDFEB19178C2FEC6A /* LGODataModel.h */,
+				2F38B2659C9B0ED22FD35E9B6CB7177D /* LGODataModel.m */,
+				583148E18DC596EBAEBB88F7298A50CD /* LGOWebView+DataModel.h */,
+				60F6EA438C61CEA4E7A3F6AF6BA81D84 /* LGOWebView+DataModel.m */,
+				6394AA714A4F5D3A22D2A0D01AC8658A /* LGOWKWebView+DataModel.h */,
+				53BB08BE3CBDB042E15414B0E3057C9B /* LGOWKWebView+DataModel.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		5AFFCC0AB4FCC50755A613D3F2844DBF /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3EB2ABD319096A09F4FC07B590FC36A4 /* LGONavigationController.h */,
+				07117CFE1FC9C15E13FB9FF944DDB41D /* LGONavigationController.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		5C6D62D7FBF2FFD2CCCE107822462FE3 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				B22A675603D5529E79D8F8BD56AD074D /* LGODevice.h */,
+				F1568870346CC3814E4E5127256332ED /* LGODevice.m */,
+				CB7001B765294A1D519DFA3E9DAD086B /* LGODeviceReachability.h */,
+				13B70CF20FD151DC186B45F830C1248F /* LGODeviceReachability.m */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		5DB625A01D251B3FB0B216A3C37A0033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */,
+				B4E3AC1528D162145D99323382DD5E10 /* JavaScriptCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E6429308B03D398517E20AB328F2B37 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				3DC0AE0BDC1F8E0BB5E1C6E55255CB8C /* LGOToast.h */,
+				3CB18CD8B38FAE41F39BAB9EA32A3F7B /* LGOToast.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		64A36F78B480E5A413168941F742E2C1 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				C8CD7644BCBA8744F0D95B86FC0D907A /* LGORefresh.h */,
+				0DF0EB02C9C4B62A198D508E8195A4BB /* LGORefresh.m */,
+				7AC88636C785218E7CD7449480FC34DB /* LGOWebView+RefreshControl.h */,
+				CA9AB39EFFA802B5DCE70D051D63B077 /* LGOWebView+RefreshControl.m */,
+				CB7CF9702135A3C36532921CAB2247F4 /* LGOWKWebView+RefreshControl.h */,
+				057B8F0AE6A71DD154A60C7F44A9CCD9 /* LGOWKWebView+RefreshControl.m */,
+			);
+			name = Refresh;
+			sourceTree = "<group>";
+		};
+		70C677264DD3D2709A5B2EB1137CE199 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3E8442E9C3F48DD7CC8EDFDBD5B75 /* JSContext+LGOProps.h */,
+				C709C3C5F4116918BA2CBD0CD288A6CF /* JSContext+LGOProps.m */,
+				D44EDFB924A680F1BE6999EFC54BF548 /* LGOCore.h */,
+				1D2CDAB5B764BC4C3BB8E6D221ABAF47 /* LGOCore.m */,
+				7B1452D3A32092C033FD5A4280664556 /* LGOJavaScriptBridge.h */,
+				99BD35F3ECD564DAB9CCB788A072E233 /* LGOJavaScriptBridge.m */,
+				AC773B2AF0EA1C71B49A87F347F2B0B7 /* LGOJavaScriptUserContentController.h */,
+				C815F11B296EA578A8D1B454090E2AD8 /* LGOJavaScriptUserContentController.m */,
+				BD8087A5E6C39E9E89FE80437AF89B47 /* LGOModules.h */,
+				E5A9221D14C844A03C196A3F587530B6 /* LGOModules.m */,
+				DF9C4E70266836FDFEA117BF81E90D8D /* LGOProtocols.h */,
+				25F2F143BEF19BAE0DCD95BB9CC22BD4 /* LGOProtocols.m */,
+				AC8FE6195CEFCA4B34048C27C1AFD0FE /* LGOWatchDog.h */,
+				3E44567D211629B4F5461CDB2DA29450 /* LGOWatchDog.m */,
+				A54858499E1B172E7A12E841EA51DF9C /* LGOWebView.h */,
+				2A36B3E7BFC5D8CACC5D46F24265FB01 /* LGOWebView.m */,
+				937BEF18D9E2D2CAC6AF5AB26B12AF74 /* LGOWKWebView.h */,
+				E967F810F8EB051AD1C6BCB88CDBDC11 /* LGOWKWebView.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DCCA25E5312884578D91529E1B3D3972 /* Pods */,
+				25FA8CA5E31DEF5BE6D4BF2728D7528C /* Products */,
+				D5B3EBC3E274EE9C8AEB430D82D51FE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2B5E9E7D99942DCE8CA23D5D0CAA24 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C4FB74BEDFEDE630273925CF8ED18 /* LGOCheck.h */,
+				AF709A08292582EF70DFAEAA9797DE68 /* LGOCheck.m */,
+			);
+			name = Check;
+			sourceTree = "<group>";
+		};
+		9F832BC219C257DC1C243BEF2D0F2A95 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F73A473F9E8698B96BB56E0DDB596EDB /* LGOProgressView.h */,
+				71B28E7E51C5D3E0DFAE642B6EEC056D /* LGOProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		A019083FDF24B60448F5B163A888829B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				195696039B5B7E12C792EAE857A75676 /* LEGO-SDK.xcconfig */,
+				8C73E81FF707B4B06402B05CCD4082BE /* LEGO-SDK-dummy.m */,
+				1A25BBDCE83BFE83AABC7C9A7D039CED /* LEGO-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LEGO-SDK";
+			sourceTree = "<group>";
+		};
+		A38CEAA796594A92C76BCD9A98C5BAD8 /* AutoInject */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A019FC94EFCD5A0044254B21D548B /* UIWebView+LGOAutoInject.h */,
+				0C33D69E36B296926BFF52422734C4F0 /* UIWebView+LGOAutoInject.m */,
+				9C836DE2FFD646420D255CE564BAAA03 /* WKWebView+LGOAutoInject.h */,
+				6855897E6EC41E16C9CBA1ACF97BF46D /* WKWebView+LGOAutoInject.m */,
+			);
+			name = AutoInject;
+			sourceTree = "<group>";
+		};
+		A41EBD231A1107991290192D2F62B847 /* NavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				4705F94B3462DAC319A9E5E911602D0C /* LGONavigationItem.h */,
+				2E9381DD98EBC91076277D0F217F5835 /* LGONavigationItem.m */,
+			);
+			name = NavigationItem;
+			sourceTree = "<group>";
+		};
+		B4077797C313EC1CB3D1D010C326C490 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1DBD25F11C2E3E48F3C8E5E334241A58 /* ActionSheet */,
+				179F9122E0C6CABB38D3B86460CFB617 /* AlertView */,
+				0F3F499B9B1A66050B9E281225F78735 /* ImagePreviewer */,
+				F415A32BD0E263B08D03E4617079B3FA /* ModalController */,
+				5AFFCC0AB4FCC50755A613D3F2844DBF /* NavigationController */,
+				A41EBD231A1107991290192D2F62B847 /* NavigationItem */,
+				0033CC02114EBBA7CC17F52EA5674EE0 /* PageState */,
+				0086E4475BD56FBA54B07E89B47BAC2F /* Picker */,
+				9F832BC219C257DC1C243BEF2D0F2A95 /* ProgressView */,
+				64A36F78B480E5A413168941F742E2C1 /* Refresh */,
+				5E6429308B03D398517E20AB328F2B37 /* Toast */,
+				F446F9484E4C2BF8CCB0927B45BB9A33 /* ViewController */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B7A66EB85D2DCA23B0DE048FA65154B2 /* Pack */ = {
+			isa = PBXGroup;
+			children = (
+				B16E417AF27A11406ECCA135ECBD6CF9 /* LGOPack.h */,
+				A85BAD218C70A89691F75B2529A97F6D /* LGOPack.m */,
+				19DE6C436188131808C3F42A71D39805 /* LGOPackRSA.h */,
+				84E3A9A3F39885E49B7FB847485A01CA /* LGOPackRSA.m */,
+				C804E7F028CF73168F13FCE3CF1E1A7D /* UIWebView+LGOPack.h */,
+				9C34BC66EDB241734FA625D9B6177E3B /* UIWebView+LGOPack.m */,
+				E90B8F80FEAE655EDDE5D4ADB9569060 /* WKWebView+LGOPack.h */,
+				47084E03B356FA028F2F2B2974D2F473 /* WKWebView+LGOPack.m */,
+			);
+			name = Pack;
+			sourceTree = "<group>";
+		};
+		C289CB391C11EA94D7241E3DA0D8FBFA /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				5CE7D15CAC86923ED41C7A9839EE9E98 /* aes.h */,
+				064010797ADA4F465E785E5970DAEE1D /* aes_via_ace.h */,
+				3E0B21C5C7FE590370EAED6D216871B7 /* aescrypt.c */,
+				96F79BDA759BAA44BF6E37A7F9DC83DC /* aeskey.c */,
+				56262B31CA056D42B55C03888D1C83CF /* aesopt.h */,
+				8459DECCCFCEE3216DF7C54104074BE1 /* aestab.c */,
+				0420671D029B8F5752EC03FC77755A9D /* aestab.h */,
+				35AEF13DE08B9CE2EAE1B3DD74E2AD72 /* brg_endian.h */,
+				9605DAE54C309B448C95DF6ABB60C8E4 /* brg_types.h */,
+				8648D40863FDB0DA8C90F3A0DB222143 /* crypt.h */,
+				E77C58109737747105883E927300F92B /* entropy.c */,
+				01E8BBC4B9F34ACEF84D74D004FEF571 /* entropy.h */,
+				C4C0FC7A4B8A67CF08666E9EE3AE4062 /* fileenc.c */,
+				6F614FBC17DDD2B8C4DFBAFA435D0E53 /* fileenc.h */,
+				AD75ABFEA86F9C02A6868D4A2B27E677 /* hmac.c */,
+				C7B71FFC7AF20C84363FB7F60F10CA5A /* hmac.h */,
+				F82B1596819F2E0F8952D8C48D4E46AE /* ioapi.c */,
+				821AD56222BE53AC9D6A8C4F4E48901A /* ioapi.h */,
+				50B41E812A3FD7C184C83C6C7E9834F7 /* mztools.c */,
+				27CA34664EA6F96B6B10582500AA7870 /* mztools.h */,
+				1E303BE82B804D22202BCE77853FEAC8 /* prng.c */,
+				69C443010FE192EB382CD2EF44D534DC /* prng.h */,
+				01B0516A00C1FC9B560620EEA9063A99 /* pwd2key.c */,
+				50A22D398B9B742A8825869DACF9676B /* pwd2key.h */,
+				62F1E4BB244BEFF82046E92E70C231B6 /* sha1.c */,
+				667EC42AEB4E6FFF3025B5872666CB59 /* sha1.h */,
+				EE9825D0A8B1CF6CC126183A3BDC50C6 /* SSZipArchive.h */,
+				A2699CC2530CF71DD5F1A67D777FBE63 /* SSZipArchive.m */,
+				9C7FB2DE236E5600D2ADDB34BEA199E6 /* SSZipCommon.h */,
+				21C6CF6827453D7A0D627AF21EAD60D8 /* unzip.c */,
+				7EF015362696BFA3F419E4326D68B327 /* unzip.h */,
+				5885D7084E4066D352F7A35E47C664E6 /* zip.c */,
+				1AA6A8369801AE0AD385053109BB7862 /* zip.h */,
+				DE5ACAD4EB80EB370909A08A9C281761 /* ZipArchive.h */,
+				43EAFE505B38FB09E0AD4176063F0052 /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		C4EAEC75B7250C050D07B834554081BF /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E1F2B843838843F1AAC9CE6B28A605BD /* LGOHTTPRequest.h */,
+				859D5F5A9572B6B59C6BFD2FB9707A8D /* LGOHTTPRequest.m */,
+			);
+			name = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		CCB566E843DB109148B100FCAF98AE3D /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B7A66EB85D2DCA23B0DE048FA65154B2 /* Pack */,
+				1A71C36201FC3A71E9323805A342D3B0 /* Preload */,
+				0E9AE356C143C8843DED7A49BE6325E0 /* Skeleton */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		D5B3EBC3E274EE9C8AEB430D82D51FE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				499D9E4F8E0329F073293109D635BEAA /* Pods-LEGO-SDK-Simple */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCCA25E5312884578D91529E1B3D3972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFB62A2DEBBA9B8C69685B319A5C1C3 /* LEGO-SDK */,
+				C289CB391C11EA94D7241E3DA0D8FBFA /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E701E9EB4D81EBD9BAE53E7E5CE4D880 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFE2D569E7A61ADF83035C3DB65AA3 /* LGOCall.h */,
+				BE00361E79E2D5B9EFD1C99DA3CD9758 /* LGOCall.m */,
+				8E143052D68AE364FF6E7250D9A1B9A3 /* LGOCallable.h */,
+			);
+			name = Call;
+			sourceTree = "<group>";
+		};
+		ECDDEB357B2A52B2420A6BC480FDCC10 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				453B766D8DCDB06D2B6FFF81A92678D5 /* LGONotification.h */,
+				E0165D6BEEE775E9A9657D90BC19261D /* LGONotification.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		F415A32BD0E263B08D03E4617079B3FA /* ModalController */ = {
+			isa = PBXGroup;
+			children = (
+				7A5283EF241F86FB5FEDB7141CA89418 /* LGOModalController.h */,
+				B59AC1C9BF6A1F48556837A45C7F3B82 /* LGOModalController.m */,
+			);
+			name = ModalController;
+			sourceTree = "<group>";
+		};
+		F446F9484E4C2BF8CCB0927B45BB9A33 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F0A1982BA2FCD8E75C5CCF11F01D473 /* LGOBaseNavigationController.h */,
+				3A804812C02D4DBE1D256C4BAD239D49 /* LGOBaseNavigationController.m */,
+				3CB7AAEA020F3F6EDBE017426101D31C /* LGOBaseViewController.h */,
+				27D50F0901A28DBF3DA0690CA004878E /* LGOBaseViewController.m */,
+				35391594D6E65496DDEE92562CDF6655 /* LGOPage.h */,
+				06843CE83EA2BE0B3E32A704568F3D83 /* LGOPage.m */,
+				66B5E7807BB9666950CCDD5BDBF871EC /* LGOPageStore.h */,
+				3AE8AA8CE4BBCE5C05A2D567CBAE1753 /* LGOPageStore.m */,
+				92B4E603D11C0A16578869D3287BF940 /* UIWebView+LGOViewControllerArgs.h */,
+				332C37306F279C5ACFA210FE2FB0A6D8 /* UIWebView+LGOViewControllerArgs.m */,
+				D85FBF9DDBA1D537FBFA9D367E9484CC /* WKWebView+LGOViewControllerArgs.h */,
+				276B4B554F8D5EBCA46A1FC941E7004C /* WKWebView+LGOViewControllerArgs.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F86D54D0E0A784552AA642A1E119A614 /* Pasteboard */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFE91FA46DD129565F924894B37E25 /* LGOPasteboard.h */,
+				17CCDE0C1E7962873F51CC47834419C2 /* LGOPasteboard.m */,
+			);
+			name = Pasteboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94117C1F6E58A65F65477DA909515510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609B55C2CB02444843ED55A8BB6DA4C /* JSContext+LGOProps.h in Headers */,
+				131EA34DBF349EE9946ADB4EC6EAA57D /* LGOActionSheet.h in Headers */,
+				0DEB10674861CDDE6918F9B7DB8AE3C8 /* LGOAlertView.h in Headers */,
+				146B808C198990687C1C4FBB01FD05DB /* LGOBaseNavigationController.h in Headers */,
+				143D0221BDE3820DE5FBF489399E0EB0 /* LGOBaseViewController.h in Headers */,
+				8FE8F75EA3F0B5A2C94D2268AA24ACBC /* LGOCall.h in Headers */,
+				3E8CF89DF92A413EFB1DA0AA0B249454 /* LGOCallable.h in Headers */,
+				0BBCE727AFBEE0403BD228126D3F5141 /* LGOCanOpenURL.h in Headers */,
+				B95368BA1801E0B07648989BD13B6A7C /* LGOCheck.h in Headers */,
+				EF5BFB4957DDCA3945ADB0E8E47E7538 /* LGOCore.h in Headers */,
+				9B3067595D3A256A9E566F814630E7BA /* LGODataModel.h in Headers */,
+				6EBCA85871665C2459C4E8B1AB249B42 /* LGODevice.h in Headers */,
+				6EAD75D9AC0914D82F39D52BBCE35B8B /* LGODeviceReachability.h in Headers */,
+				7B5C06BCF89FE2E63ECA8A311F83AA4B /* LGOFileManager.h in Headers */,
+				39697565BDA3C6BC04F082022818A72A /* LGOHTTPRequest.h in Headers */,
+				C03324B817A5CEC5FC8332341AACE1DA /* LGOImagePreviewController.h in Headers */,
+				0F4B5E05B27EDAD607896DC0DE119E5B /* LGOImagePreviewer.h in Headers */,
+				C5FD6DC97E0A293F53A8DD28E05986CC /* LGOImagePreviewZoomingScrollView.h in Headers */,
+				DAC1F8B6C3F78949BA3B33CD517833AB /* LGOJavaScriptBridge.h in Headers */,
+				901B1D956EC704785C698852A4F129FC /* LGOJavaScriptUserContentController.h in Headers */,
+				3A193F494897ECEF046E2DC5FD503D73 /* LGOModalController.h in Headers */,
+				D36B32B0237776F64A403D6796367598 /* LGOModules.h in Headers */,
+				E012545A252AD347CC4F557DBAA57782 /* LGONavigationController.h in Headers */,
+				85AB8F7FF5454C4315D359A771654612 /* LGONavigationItem.h in Headers */,
+				1EBE5772BAE9A4EE1B473BF4EF6F4255 /* LGONotification.h in Headers */,
+				8F9A43B95026ACDEF7DCFC3BCEC85997 /* LGOOpenURL.h in Headers */,
+				EB8B152006983954BC5536A16189E970 /* LGOPack.h in Headers */,
+				322EDAE0F59FF4921ECE153820CCF6C7 /* LGOPackRSA.h in Headers */,
+				123A2E3DFA2FB024AD938AFA4DE1A61B /* LGOPage.h in Headers */,
+				06F98944BFA29ADAAF3B715B2D73FF71 /* LGOPageState.h in Headers */,
+				F7C77B05170D8607560B8330CEB0263E /* LGOPageStore.h in Headers */,
+				34735BE8072FF5C219F6D29B3DD61FAA /* LGOPasteboard.h in Headers */,
+				3142C4CE1D11974CA261437E192A7977 /* LGOPicker.h in Headers */,
+				847C540C4FA39B9013456D512B7B3E79 /* LGOPreload.h in Headers */,
+				B31EAD78E3A79696E5ED27CCEB109F65 /* LGOProgressView.h in Headers */,
+				5F7BFF1D3315FC8B8F009D12F5EA20D0 /* LGOProtocols.h in Headers */,
+				7A329C164363972412C944728571B8EC /* LGORefresh.h in Headers */,
+				E08D50178FBA2E1F026BFBCD0D4771B8 /* LGOSkeleton.h in Headers */,
+				FA9CB9EC2579D20972925FBACA2539C1 /* LGOSnapshot.h in Headers */,
+				45D2DF8CF0F7A86348023C58B1325927 /* LGOToast.h in Headers */,
+				D1BD6DC82D417908B1E3571B32818981 /* LGOUserDefaults.h in Headers */,
+				59CD8336419F18312E8C8DD13B86DB7F /* LGOWatchDog.h in Headers */,
+				5D6522E22E68409A14CF9DDD805B7F64 /* LGOWebView+DataModel.h in Headers */,
+				5A2EEBB5C1F9147EB017A961145D7CCB /* LGOWebView+RefreshControl.h in Headers */,
+				76FCEE5318F4E15675BA2C2B58B6B104 /* LGOWebView.h in Headers */,
+				F533E0F00FE4C1CE13D85AB64D3EBBB6 /* LGOWKWebView+DataModel.h in Headers */,
+				D9622E44137A1E09DDC60DB0930C89CD /* LGOWKWebView+RefreshControl.h in Headers */,
+				5A3E4A712C693517F7038A37B3E9CB4D /* LGOWKWebView.h in Headers */,
+				14D7EC1D2119DB1366314BCA549F5301 /* UIWebView+LGOAutoInject.h in Headers */,
+				DDCDCF1BD3C300596BCCBF39FA1CD417 /* UIWebView+LGOPack.h in Headers */,
+				456DDE43840CAEE96CA7DAFF053551B6 /* UIWebView+LGOViewControllerArgs.h in Headers */,
+				5598818AE5E923CFFDD74B0BAED0726A /* WKWebView+LGOAutoInject.h in Headers */,
+				0220854C06155842DA24E4BBA5DB643A /* WKWebView+LGOPack.h in Headers */,
+				E4FA1B38CEB52A45C6563B401A843A6F /* WKWebView+LGOViewControllerArgs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DBA1190645AA0239C234AA180F8F2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886549F170FBCAFB1532C70898BA4FE /* aes.h in Headers */,
+				82F9293C6A303FC29743002929249816 /* aes_via_ace.h in Headers */,
+				AF011DE2CB9A27BDFBDC84F22E132C56 /* aesopt.h in Headers */,
+				F6817FDE7672E31ED1E7AEAF37418817 /* aestab.h in Headers */,
+				2BA79D937CC543E86F43EFFF7B47B92D /* brg_endian.h in Headers */,
+				7C62BC406E4400209BD3BC375F04623F /* brg_types.h in Headers */,
+				2812E973A2BDE31F7E2DFA6A1AB2B8C7 /* crypt.h in Headers */,
+				FBF732B926F596C00BEB4FC001CA4912 /* entropy.h in Headers */,
+				653AEED898B89BB6707D1044D04F5B9C /* fileenc.h in Headers */,
+				1A22523C9F5C4067543C25527F661BEB /* hmac.h in Headers */,
+				65F73CB47084B74E1679FC021C2A4CB9 /* ioapi.h in Headers */,
+				3F005F8DF9B95725B9AEBC11E27CB5D0 /* mztools.h in Headers */,
+				15307154246ECAC952F71EEA7BDD302D /* prng.h in Headers */,
+				D376ADDD0415D40E5A37FEDF823D449D /* pwd2key.h in Headers */,
+				175C18E4FA262BE01B82776804A5DBAB /* sha1.h in Headers */,
+				A08E489243326D719A4ACB531D4C48A9 /* SSZipArchive.h in Headers */,
+				06AF286435B3BBF3238DBD02B5253166 /* SSZipCommon.h in Headers */,
+				590E840C261443FAB9DD47B066143248 /* unzip.h in Headers */,
+				BD30A3A79053283E5169A6885DFDEED3 /* zip.h in Headers */,
+				0DDBAD9724884CF63331FD95F7544623 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23B43F4925C35915BCB9F4A580580DF5 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36517D716314292302BCBDF93393555 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				02D8691FED6FA3D1D5C02F8E8DE9A198 /* Sources */,
+				60B40548F3A32811C26EC3E985833642 /* Frameworks */,
+				A9DBA1190645AA0239C234AA180F8F2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 94EF7EBF3475F54D29B9AC6A9B7B88A1 /* libSSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3B08FB11840C2C112A5B9BFA95E2198B /* Pods-LEGO-SDK-Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1290C7BE84A4EBBF283DD8E32F0B1A52 /* Build configuration list for PBXNativeTarget "Pods-LEGO-SDK-Simple" */;
+			buildPhases = (
+				260F8B0995CE8B1211ECB39188E2E03E /* Sources */,
+				92BF4EB38C1F4DB4199BA9C312D36D2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7CCB940D2469505E925089E963D2F0 /* PBXTargetDependency */,
+				615006F22DFE1CFEABF8DE25D48617B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LEGO-SDK-Simple";
+			productName = "Pods-LEGO-SDK-Simple";
+			productReference = 70BE791B69C870A1DBA015B4B54711A8 /* libPods-LEGO-SDK-Simple.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C744526214180457066F2A89AFC3294D /* LEGO-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C4DDAC01B93949C10D2F8B29DAF17 /* Build configuration list for PBXNativeTarget "LEGO-SDK" */;
+			buildPhases = (
+				004875899D2DAA40ABC7F4EE619BBC8F /* Sources */,
+				9800EDA6CB80E56066DF06999FCB48A4 /* Frameworks */,
+				94117C1F6E58A65F65477DA909515510 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648BEB43484A03318E8A5316BD901FE3 /* PBXTargetDependency */,
+			);
+			name = "LEGO-SDK";
+			productName = "LEGO-SDK";
+			productReference = 4B02559763B21C4FC9EBCB96ECCBBEF4 /* libLEGO-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 25FA8CA5E31DEF5BE6D4BF2728D7528C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C744526214180457066F2A89AFC3294D /* LEGO-SDK */,
+				3B08FB11840C2C112A5B9BFA95E2198B /* Pods-LEGO-SDK-Simple */,
+				23B43F4925C35915BCB9F4A580580DF5 /* SSZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004875899D2DAA40ABC7F4EE619BBC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9284ABC03955B0054D56CDAE6D08C84A /* JSContext+LGOProps.m in Sources */,
+				80509ACEA67E8511944BC954C167FFF5 /* LEGO-SDK-dummy.m in Sources */,
+				EF830B33C28638BF366AD7A0D717F907 /* LGOActionSheet.m in Sources */,
+				87216E07E567C42D8214E67053B723EA /* LGOAlertView.m in Sources */,
+				EBC5DF6BFDBF055682A3767EB801F9D6 /* LGOBaseNavigationController.m in Sources */,
+				58B4B5BB669F563F4C3BEF3EC04B7DAC /* LGOBaseViewController.m in Sources */,
+				4122C51067974C345D8EF4A567215034 /* LGOCall.m in Sources */,
+				F237634E6DE3D17D6EAEFC30C416C1E6 /* LGOCanOpenURL.m in Sources */,
+				D00D2A84F9181BD49E75591A5BED3E25 /* LGOCheck.m in Sources */,
+				98461A146982DB63D09053839D0BD8DD /* LGOCore.m in Sources */,
+				8692487B386FDB87630013754D38C4A1 /* LGODataModel.m in Sources */,
+				2A7FAE2B7AA20D9F726425C1D99D0E86 /* LGODevice.m in Sources */,
+				BE5357165481EFEBF3FF9DEC8ACCAB90 /* LGODeviceReachability.m in Sources */,
+				CE502D74FA372DF50CC89A39729C9BA1 /* LGOFileManager.m in Sources */,
+				8BBA9E59236816EB72E07F7C93B20E2C /* LGOHTTPRequest.m in Sources */,
+				BFBCA37DB1C68DFBAC7E1515E9CA2B50 /* LGOImagePreviewController.m in Sources */,
+				7727053E77AE32A24710188430ABFF81 /* LGOImagePreviewer.m in Sources */,
+				3204052D4670C808AFFE021EDE56B7AA /* LGOImagePreviewZoomingScrollView.m in Sources */,
+				F6B61141DF7AC8EF9462595FEDD35554 /* LGOJavaScriptBridge.m in Sources */,
+				6A2571A087DE32CAF8EF305F50F92A6F /* LGOJavaScriptUserContentController.m in Sources */,
+				03729393192E64EA53B4A6A9DEF1393B /* LGOModalController.m in Sources */,
+				4E21DA01CA1770446879E76C9A02AECE /* LGOModules.m in Sources */,
+				B6B62302A43B94FBD706E3D54F72D796 /* LGONavigationController.m in Sources */,
+				8D6A31E73ADB54D8D31509CDD84A9663 /* LGONavigationItem.m in Sources */,
+				0608EE19B8FB60723356261199395085 /* LGONotification.m in Sources */,
+				8BF257BCFBEE9471431FF3E665F08262 /* LGOOpenURL.m in Sources */,
+				4DABB5D0E7C6111E50699CBA33538751 /* LGOPack.m in Sources */,
+				5AB87E7ACE7DA676B79ECB73FB061A12 /* LGOPackRSA.m in Sources */,
+				33884481D6152793AD22499BF46B7398 /* LGOPage.m in Sources */,
+				C75AD3A4E54C9D9365BB7FD49991D9C3 /* LGOPageState.m in Sources */,
+				8443C2B33D367606540CA16E78051767 /* LGOPageStore.m in Sources */,
+				6C8429AE96989729089E4AC137F52BE2 /* LGOPasteboard.m in Sources */,
+				DDAE5F36608A176356291547306A5D13 /* LGOPicker.m in Sources */,
+				EA1C4719C72314C10631BE407AAD2424 /* LGOPreload.m in Sources */,
+				C1D6C2EF7C89325271DEE8DF37A8824C /* LGOProgressView.m in Sources */,
+				6AA8AD8A92D2FCB91F0C3295BCF52307 /* LGOProtocols.m in Sources */,
+				ED4DCED8BF375CEC150D6CE9F0F6767F /* LGORefresh.m in Sources */,
+				BBF84FB944E1D9A58DEF504003C88FB7 /* LGOSkeleton.m in Sources */,
+				97749D116EF2AC60CB5C5BBE95D4F612 /* LGOSnapshot.m in Sources */,
+				701BE6723DF40CFBF00C1FB86D47B3DB /* LGOToast.m in Sources */,
+				F282005E441935D518A2BFF1C85E2F2C /* LGOUserDefaults.m in Sources */,
+				2456D52598C231A5C77980845A813506 /* LGOWatchDog.m in Sources */,
+				4D10A65511CEADECA86EAF9B8EA3A204 /* LGOWebView+DataModel.m in Sources */,
+				A440CFF716AAF4BAB4AA9DE68929A463 /* LGOWebView+RefreshControl.m in Sources */,
+				85379D265220B7BA2C62C263BFCE76BF /* LGOWebView.m in Sources */,
+				584641D1C018105232C6822A1BF10007 /* LGOWKWebView+DataModel.m in Sources */,
+				F00E165502D865784EE1C2DF931EC005 /* LGOWKWebView+RefreshControl.m in Sources */,
+				59E12971F28FBDC432C8BDA50A076FBF /* LGOWKWebView.m in Sources */,
+				2EA8C1A59E1DC7E04C4D3A57AD131E10 /* UIWebView+LGOAutoInject.m in Sources */,
+				4AE710851378677368A1D91382AC2A57 /* UIWebView+LGOPack.m in Sources */,
+				69816BFF4261854B06D6A0BDC7B7CFA4 /* UIWebView+LGOViewControllerArgs.m in Sources */,
+				3B921E1D6FE83234AD74C5C44C9BF0E4 /* WKWebView+LGOAutoInject.m in Sources */,
+				9D9A30DEC3FDB469C9AE348630BD47CD /* WKWebView+LGOPack.m in Sources */,
+				04C2EA82AF4080513D2BDE0E9FED7F8C /* WKWebView+LGOViewControllerArgs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D8691FED6FA3D1D5C02F8E8DE9A198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491CDC636F9AD17A72C18A640F340C50 /* aescrypt.c in Sources */,
+				F7410D408448629C8A30E67B8097036A /* aeskey.c in Sources */,
+				6BBB605B5CB6972A9445CAF99BF8D9AB /* aestab.c in Sources */,
+				8B2938CBDED874A4D04FA7690EC20396 /* entropy.c in Sources */,
+				5E7DC098ABB219240ABDC4BF43BB8D3D /* fileenc.c in Sources */,
+				48B8A873598B5C924514A10FB348C019 /* hmac.c in Sources */,
+				4E5B4DEE91423F15BA11A9F828CC111B /* ioapi.c in Sources */,
+				84FBB1DDA47A63CD5F46157868F5CC8E /* mztools.c in Sources */,
+				58CF6917612D5A469877880A28329BEB /* prng.c in Sources */,
+				807C0ED59EFBD24C42E1018605F0FBDE /* pwd2key.c in Sources */,
+				863621DD0B85DAE009C80C8C8FD6CC6C /* sha1.c in Sources */,
+				8FE3A31FAE2EDD68239A0B142475752A /* SSZipArchive-dummy.m in Sources */,
+				D625220564F771E3B201DB835D993B96 /* SSZipArchive.m in Sources */,
+				7FA54A7A2E6CC2B2852C2F40F8CB77A1 /* unzip.c in Sources */,
+				F438E86E54A061B321B9C7314C4D0527 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260F8B0995CE8B1211ECB39188E2E03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9B69AEA70546AF40CCB71AD6F133C9 /* Pods-LEGO-SDK-Simple-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7CCB940D2469505E925089E963D2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LEGO-SDK";
+			target = C744526214180457066F2A89AFC3294D /* LEGO-SDK */;
+			targetProxy = 9EBFCE997A4FD055C4BEB00AAB28198C /* PBXContainerItemProxy */;
+		};
+		615006F22DFE1CFEABF8DE25D48617B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 23B43F4925C35915BCB9F4A580580DF5 /* SSZipArchive */;
+			targetProxy = 435699D9809C7CFAB8B2781CDD45E40B /* PBXContainerItemProxy */;
+		};
+		648BEB43484A03318E8A5316BD901FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 23B43F4925C35915BCB9F4A580580DF5 /* SSZipArchive */;
+			targetProxy = 490F9A130AE3E6B80A409B6D0264ED68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10FF1FFE63F12768A0D889C5788D7427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C9DB006795B7B5CFDF97CCDC2D028D /* Pods-LEGO-SDK-Simple.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC49D5FC0530A7D6E58491584504F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB1725F048C885E12B39CCFC362FD74 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		5B5ABBF438A4EC28AC25EF484FF7F59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195696039B5B7E12C792EAE857A75676 /* LEGO-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LEGO-SDK/LEGO-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		73BD4D7DD0F46AF4DFA88A19336EDE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB1725F048C885E12B39CCFC362FD74 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		931A11C87022D732A11B4069D5130653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195696039B5B7E12C792EAE857A75676 /* LEGO-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LEGO-SDK/LEGO-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		DE00E3985CBF511A8AC38012BB4219D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B800B5C3D732E6265531FAB2CD7563C5 /* Pods-LEGO-SDK-Simple.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1290C7BE84A4EBBF283DD8E32F0B1A52 /* Build configuration list for PBXNativeTarget "Pods-LEGO-SDK-Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FF1FFE63F12768A0D889C5788D7427 /* Debug */,
+				DE00E3985CBF511A8AC38012BB4219D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36517D716314292302BCBDF93393555 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC49D5FC0530A7D6E58491584504F26 /* Debug */,
+				73BD4D7DD0F46AF4DFA88A19336EDE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C4DDAC01B93949C10D2F8B29DAF17 /* Build configuration list for PBXNativeTarget "LEGO-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5ABBF438A4EC28AC25EF484FF7F59E /* Debug */,
+				931A11C87022D732A11B4069D5130653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
